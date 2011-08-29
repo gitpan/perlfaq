@@ -37,7 +37,7 @@
          "web" : "http://github.com/rafl/perlfaq"
       }
    },
-   "version" : "5.015003",
+   "version" : "5.01500301",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

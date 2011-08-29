@@ -20,7 +20,7 @@ resources:
   bugtracker: http://rt.perl.org/rt3/
   homepage: http://metacpan.org/release/perlfaq
   repository: git://github.com/rafl/perlfaq.git
-version: 5.015003
+version: 5.01500301
 x_Dist_Zilla:
   plugins:
     -
