@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'frequently asked questions about Perl',
-  'AUTHOR' => 'Tom Christiansen <tchrist@perl.com>, Nat Torkington <gnat@frii.com>, brian d foy <bdfoy@cpan.org>, perlfaq-workers <perlfaq-workers@perl.org>, The Perl 5 Porters <perl5-porters@perl.org>',
+  'AUTHOR' => 'Tom Christiansen <tchrist@perl.com>, Nat Torkington <gnat@frii.com>, brian d foy <bdfoy@cpan.org>, Leo Lapworth <LLAP@cpan.org>, perlfaq-workers <perlfaq-workers@perl.org>, The Perl 5 Porters <perl5-porters@perl.org>',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.30'
@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'perlfaq',
   'PREREQ_PM' => {},
-  'VERSION' => '5.01500301',
+  'VERSION' => '5.01500302',
   'test' => {
     'TESTS' => 't/*.t'
   }
