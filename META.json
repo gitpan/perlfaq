@@ -28,17 +28,16 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "bug-perlfaq@rt.cpan.org",
-         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=perlfaq"
+         "web" : "https://github.com/perl-doc-cats/perlfaq/issues"
       },
-      "homepage" : "http://metacpan.org/release/perlfaq",
+      "homepage" : "https://metacpan.org/release/perlfaq",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/tpf/perlfaq.git",
-         "web" : "http://github.com/tpf/perlfaq"
+         "web" : "https://github.com/tpf/perlfaq"
       }
    },
-   "version" : "5.0150032",
+   "version" : "5.0150033",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -135,6 +134,16 @@
             "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
             "name" : "PodSyntaxTests",
             "version" : "4.300000"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::NoTabsTests",
+            "name" : "NoTabsTests",
+            "version" : "0.01"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::EOLTests",
+            "name" : "EOLTests",
+            "version" : "0.02"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaResources",

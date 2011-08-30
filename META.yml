@@ -18,10 +18,10 @@ meta-spec:
   version: 1.4
 name: perlfaq
 resources:
-  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=perlfaq
-  homepage: http://metacpan.org/release/perlfaq
+  bugtracker: https://github.com/perl-doc-cats/perlfaq/issues
+  homepage: https://metacpan.org/release/perlfaq
   repository: git://github.com/tpf/perlfaq.git
-version: 5.0150032
+version: 5.0150033
 x_Dist_Zilla:
   plugins:
     -
@@ -100,6 +100,14 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: PodSyntaxTests
       version: 4.300000
+    -
+      class: Dist::Zilla::Plugin::NoTabsTests
+      name: NoTabsTests
+      version: 0.01
+    -
+      class: Dist::Zilla::Plugin::EOLTests
+      name: EOLTests
+      version: 0.02
     -
       class: Dist::Zilla::Plugin::MetaResources
       name: MetaResources
