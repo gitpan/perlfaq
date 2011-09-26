@@ -18,6 +18,7 @@ lib/perlfaq6.pod
 lib/perlfaq7.pod
 lib/perlfaq8.pod
 lib/perlfaq9.pod
+lib/perlglossary.pod
 t/release-eol.t
 t/release-no-tabs.t
 t/release-pod-syntax.t

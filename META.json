@@ -37,7 +37,7 @@
          "web" : "https://github.com/tpf/perlfaq"
       }
    },
-   "version" : "5.0150034",
+   "version" : "5.0150035",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
