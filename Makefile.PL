@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "perlfaq",
   "PREREQ_PM" => {},
-  "VERSION" => "5.0150042",
+  "VERSION" => "5.0150043",
   "test" => {
     "TESTS" => "t/*.t"
   }
