@@ -42,7 +42,7 @@
          "web" : "https://github.com/perl-doc-cats/perlfaq"
       }
    },
-   "version" : "5.0150043",
+   "version" : "5.0150044",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"

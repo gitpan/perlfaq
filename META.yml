@@ -21,7 +21,7 @@ resources:
   bugtracker: https://github.com/perl-doc-cats/perlfaq/issues
   homepage: https://metacpan.org/release/perlfaq
   repository: git://github.com/perl-doc-cats/perlfaq.git
-version: 5.0150043
+version: 5.0150044
 x_Dist_Zilla:
   perl:
     version: 5.014002
