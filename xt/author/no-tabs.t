@@ -1,15 +1,7 @@
-
-BEGIN {
-  unless ($ENV{RELEASE_TESTING}) {
-    require Test::More;
-    Test::More::plan(skip_all => 'these tests are for release candidate testing');
-  }
-}
-
 use strict;
 use warnings;
 
-# this test was generated with Dist::Zilla::Plugin::NoTabsTests 0.06
+# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.09
 
 use Test::More 0.88;
 use Test::NoTabs;
@@ -26,7 +18,8 @@ my @files = (
     'lib/perlfaq7.pod',
     'lib/perlfaq8.pod',
     'lib/perlfaq9.pod',
-    'lib/perlglossary.pod'
+    'lib/perlglossary.pod',
+    't/00-compile.t'
 );
 
 notabs_ok($_) foreach @files;
